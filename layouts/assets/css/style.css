@@ -7,33 +7,37 @@
 }
 
 @font-face{
-  font-family:"Essay";
-  src:url("../fonts/EBGaramond-Regular.woff2") format("woff2");
-  font-weight:400;
-  font-style:normal;
-  font-display:swap;
+  font-family: "Essay";
+  src: url("../fonts/eb-garamond-v32-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face{
-  font-family:"Essay";
-  src:url("../fonts/EBGaramond-Italic.woff2") format("woff2");
-  font-weight:400;
-  font-style:italic;
-  font-display:swap;
+  font-family: "Essay";
+  src: url("../fonts/eb-garamond-v32-latin-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
+
 @font-face{
-  font-family:"Essay";
-  src:url("../fonts/EBGaramond-SemiBold.woff2") format("woff2");
-  font-weight:600;
-  font-style:normal;
-  font-display:swap;
+  font-family: "Essay";
+  src: url("../fonts/eb-garamond-v32-latin-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
+
 @font-face{
-  font-family:"Essay";
-  src:url("../fonts/EBGaramond-SemiBoldItalic.woff2") format("woff2");
-  font-weight:600;
-  font-style:italic;
-  font-display:swap;
+  font-family: "Essay";
+  src: url("../fonts/eb-garamond-v32-latin-600italic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
+
 
 html{
   background:var(--bg);
