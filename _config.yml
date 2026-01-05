@@ -1,6 +1,7 @@
 title: uebersystems
 description: "Essays on technology, responsibility, and decision-making"
 url: "https://uebersystems.com"
+baseurl: ""
 author: "Sven-Torben"
 
 # Keep it simple and predictable
