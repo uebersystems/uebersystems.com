@@ -10,8 +10,10 @@ markdown: kramdown
 # Pretty URLs
 permalink: /essays/:title/
 
-# No plugins needed (stay compatible with GitHub Pages)
-plugins: []
+# Plugins for SEO and Sitemap
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Optional: keep future posts visible locally if you draft ahead
 future: true
