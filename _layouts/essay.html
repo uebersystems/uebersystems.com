@@ -1,21 +1,25 @@
 ---
 layout: default
 ---
-<article>
-  <p class="kicker">
+<article class="essay">
+  <div class="essay-meta">
     {% if page.essay_no %}
-      Essay #{% if page.essay_no < 10 %}0{% endif %}{{ page.essay_no }}
-      ·
+      <span class="essay-no">Essay #{% if page.essay_no < 10 %}0{% endif %}{{ page.essay_no }}</span>
     {% endif %}
-    {{ page.date | date: "%Y" }}
-  </p>
+    <span class="dot">·</span>
+    <span class="essay-year">{{ page.date | date: "%Y" }}</span>
+  </div>
 
-  <h1>{{ page.title }}</h1>
+  <h1 class="essay-title">{{ page.title }}</h1>
 
-  {{ content }}
+  <div class="essay-byline">
+    {% if page.author %}
+      by <span class="author">{{ page.author }}</span>
+      <span class="dot">·</span>
+    {% endif %}
+  </div>
 
-  <p><small>
-    -<br />
-    {{ site.title }}
-  </small></p>
+  <div class="essay-body">
+    {{ content }}
+  </div>
 </article>
