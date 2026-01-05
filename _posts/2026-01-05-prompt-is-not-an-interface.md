@@ -4,6 +4,7 @@ title: "Prompt Is Not an Interface"
 date: 2026-01-01
 essay_no: 1
 description: "On a Quiet Architectural Failure in the Age of AI"
+vg-wort-zaehlmarke-url: https://vg08.met.vgwort.de/na/a8238e6f0d1a42828f5d0958cdc14dce
 ---
 
 It usually begins with success.
