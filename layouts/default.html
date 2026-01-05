@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{% if page.lang %}{{ page.lang }}{% else %}en{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    {% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}
+  </title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | escape }}">
+  {% else %}
+  <meta name="description" content="{{ site.description | escape }}">
+  {% endif %}
+  {% if page.noindex %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="brand"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></div>
+      <nav class="nav" aria-label="site">
+        <a href="{{ '/' | relative_url }}">Essays</a>
+        <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
+      </nav>
+    </header>
+
+    {{ content }}
+
+    <footer class="footer">
+      <div>© {{ site.title }}</div>
+      <div><a href="{{ '/impressum/' | relative_url }}">Impressum</a></div>
+    </footer>
+  </div>
+</body>
+</html>

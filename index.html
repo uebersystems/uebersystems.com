@@ -1,0 +1,30 @@
+---
+layout: default
+title: uebersystems
+---
+
+<h1 style="margin-bottom:0.6rem;">
+  <strong>{{ site.title }}</strong>
+</h1>
+
+<p style="margin:0 0 0.6rem 0; color:var(--muted);">
+  {{ site.description }}
+</p>
+
+<p style="margin:0; font-size:0.85rem; color:var(--muted);">
+  by {{ site.author }}
+</p>
+
+<h2>Essays</h2>
+{% assign essays = site.posts | sort: "date" | reverse %}
+{% for post in essays %}
+  <div class="essay-link">
+    <div class="essay-index">
+      Essay #{% if post.essay_no < 10 %}0{% endif %}{{ post.essay_no }}
+    </div>
+    <a class="essay-title" href="{{ post.url | relative_url }}">
+      {{ post.title }}
+    </a>
+    <div class="essay-year">{{ post.date | date: "%Y" }}</div>
+  </div>
+{% endfor %}

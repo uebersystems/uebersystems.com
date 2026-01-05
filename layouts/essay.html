@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article>
+  <p class="kicker">
+    {% if page.essay_no %}
+      Essay #{% if page.essay_no < 10 %}0{% endif %}{{ page.essay_no }}
+      ·
+    {% endif %}
+    {{ page.date | date: "%Y" }}
+  </p>
+
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+
+  <p><small>
+    -<br />
+    {{ site.title }}
+  </small></p>
+</article>
