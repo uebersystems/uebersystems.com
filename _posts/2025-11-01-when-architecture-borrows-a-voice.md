@@ -22,5 +22,5 @@ In such systems, quoting authority is not strategy. It is symptom.
 
 Mature architecture does not require protection through hierarchy. It rests on shared criteria, visible trade-offs, and decisions that can be defended without appeal. Where those are absent, systems remember what people tried to forget.
 
-Architecture does not lie.
+Architecture does not lie.  
 It repeats—faithfully—the way an organization learned to decide.

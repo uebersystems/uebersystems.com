@@ -6,7 +6,7 @@ essay_no: 3
 description: "On how the unit of optimization in software engineering is shifting again"
 ---
 
-Software engineering once optimized for individuals.
+Software engineering once optimized for individuals.  
 Then it learned to optimize for teams.
 
 That shift was necessary. Large systems made it unavoidable. Coordination, not syntax, became the limiting factor. Practices evolved accordingly. Collaboration stopped being overhead and became infrastructure.
@@ -29,10 +29,10 @@ Context does not scale through memory. It scales through artifacts. Decisions th
 
 Governance, in this setting, is not control. It is clarity. Without it, autonomy becomes noise.
 
-The unit of optimization is shifting again.
+The unit of optimization is shifting again.  
 From teams to learning systems.
 
 Systems that can observe themselves, encode what they learn, and change how they operate. Not occasionally, but continuously.
 
-Software will still be written.
+Software will still be written.  
 But the competitive advantage will lie elsewhere.

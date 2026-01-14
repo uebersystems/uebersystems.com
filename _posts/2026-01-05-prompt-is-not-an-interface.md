@@ -11,7 +11,7 @@ It usually begins with success.
 
 A team integrates a large language model. A prompt is written, refined, maybe even carefully reviewed. It lives in the codebase, versioned, adjusted, tested against a few examples. The output looks good. Sometimes it looks impressive. The demo works.
 
-And somewhere between the first working result and the second iteration, a thought settles in:
+And somewhere between the first working result and the second iteration, a thought settles in:  
 *This is enough. This is good. This is our interface now.*
 
 Text goes in. Text comes out.
@@ -24,9 +24,9 @@ Because a prompt looks like an interface. It behaves like one. Teams talk about 
 
 That assumption is where the architectural failure begins.
 
-Not as a bug.
-Not as a performance issue.
-But as a category error.
+Not as a bug.  
+Not as a performance issue.  
+But as a category error.  
 
 An interface is not a transport mechanism. It is a commitment. It defines what a system does, under which conditions, and—just as importantly—what it does not do. It constrains behavior in order to make it dependable. It creates predictability not only for machines, but for organizations, for responsibility, for decision-making.
 
@@ -38,7 +38,7 @@ What emerges is not an interface, but something else entirely: a semantic field.
 
 Stability, however, is not a secondary quality of architecture. It is its foundation.
 
-The difference can be stated plainly:
+The difference can be stated plainly:  
 An interface is a contract. A prompt is a request.
 
 As long as this distinction is ignored, the failure remains invisible. Systems continue to function. Often quite well. And that is precisely what makes it dangerous.
@@ -67,12 +67,12 @@ Large language models do not break systems. They expose them.
 
 They act as a stress test for architectural assumptions that were never fully articulated. What once appeared stable through deterministic code reveals itself as contingent, implicit, based on hope rather than design.
 
-The risk, then, is not artificial intelligence.
+The risk, then, is not artificial intelligence.  
 The risk is architecture without explicit decisions.
 
 Perhaps that is the real challenge of this technological moment: that it leaves us fewer places to hide. Meaning, responsibility, and choice become visible again—exactly where architecture has always belonged.
 
-Architecture does not begin with diagrams.
+Architecture does not begin with diagrams.  
 It begins where interpretation ends.
 
 And that is why a prompt is not an interface.
