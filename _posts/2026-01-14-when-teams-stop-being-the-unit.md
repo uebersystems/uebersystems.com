@@ -15,7 +15,7 @@ For a time, that was enough.
 
 The arrival of autonomous AI agents signals that it no longer is.
 
-When execution becomes abundant, the center of gravity moves. Code can be produced cheaply. Variants can be explored continuously. Verification can be automated. What remains scarce is judgment - deciding what should change, what should persist, and what must never happen.
+When execution becomes abundant, the center of gravity moves. Code can be produced cheaply. Variants can be explored continuously. Verification can be automated. What remains scarce is judgment—deciding what should change, what should persist, and what must never happen.
 
 Teams were designed to coordinate humans. Agents do not fit neatly into that structure. They do not negotiate. They do not tire. They execute whatever the system allows them to execute.
 

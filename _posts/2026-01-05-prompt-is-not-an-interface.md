@@ -11,10 +11,10 @@ It usually begins with success.
 
 A team integrates a large language model. A prompt is written, refined, maybe even carefully reviewed. It lives in the codebase, versioned, adjusted, tested against a few examples. The output looks good. Sometimes it looks impressive. The demo works.
 
-And somewhere between the first working result and the second iteration, a thought settles in:  
-*This is enough. This is good. This is our interface now.*
+And somewhere between the first working result and the second iteration, a thought settles in: *This is enough. This is good. This is our interface now.*
 
-Text goes in. Text comes out.
+Text goes in.  
+Text comes out.
 
 What could possibly be wrong with that?
 
