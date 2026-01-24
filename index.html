@@ -13,16 +13,16 @@ description: "Essays on technology, responsibility, and decision-making."
 {% assign essays = site.posts | sort: "date" | reverse %}
 
 <ul class="list">
-  {% for post in essays %}
+  {% for essay in essays %}
     <li class="list-item">
       <div class="essay-index">
-        Essay #{% if post.essay_no < 10 %}0{% endif %}{{ post.essay_no }}
+        Essay #{% if essay.essay_no < 10 %}0{% endif %}{{ essay.essay_no }}
       </div>
-      <a class="essay-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a class="essay-link" href="{{ essay.url | relative_url }}">{{ essay.title }}</a>
       <p class="essay-subtitle">
-        {{ post.subtitle }}
+        {{ essay.description }}
       </p>
-      <div class="essay-year">{{ post.date | date: "%Y" }}</div>
+      <div class="essay-year">{{ essay.date | date: "%Y" }}</div>
     </li>
   {% endfor %}
 </ul>
