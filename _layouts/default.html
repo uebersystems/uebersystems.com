@@ -32,7 +32,22 @@
     <link rel="canonical" href="{{ site.url | absolute_url }}" />
   {% endif %}
 
+  <link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/img/logo-512.png">
+  <meta name="theme-color" content="#ffffff">
+
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "uebersystems",
+    "url": "https://uebersystems.com",
+    "logo": "https://uebersystems.com/assets/img/logo-512.png"
+  }
+  </script>
+
 </head>
 <body>
   <main class="wrap">
