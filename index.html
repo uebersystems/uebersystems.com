@@ -19,6 +19,9 @@ description: "Essays on technology, responsibility, and decision-making."
         Essay #{% if post.essay_no < 10 %}0{% endif %}{{ post.essay_no }}
       </div>
       <a class="essay-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p class="essay-subtitle">
+        {{ page.subtitle }}
+      </p>
       <div class="essay-year">{{ post.date | date: "%Y" }}</div>
     </li>
   {% endfor %}

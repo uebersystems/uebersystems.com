@@ -193,6 +193,26 @@ a:hover{
   font-weight: 600;
 }
 
+.essay-subtitle {
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--text-muted, #666);
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+.essay-subtitle::first-letter {
+  opacity: 0.85;
+}
+
+/* tighten when following a heading */
+h1 + .essay-subtitle,
+h2 + .essay-subtitle {
+  margin-top: 0.15rem;
+}
+
 .essay-byline{
   color: var(--muted);
   font-size: 0.95rem;
