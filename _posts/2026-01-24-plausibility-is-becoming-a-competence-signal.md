@@ -2,7 +2,7 @@
 layout: essay
 title: "Plausibility Is Becoming a Competence Signal"
 date: 2026-01-24
-essay_no: 4
+essay_no: 5
 description: "On output, expertise, and selection pressure"
 ---
 
